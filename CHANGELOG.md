@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- `TwilioSerializer` now supports transport message frames. With this we can
+  create Twilio emulators.
+
 ### Fixed
 
 - Fixed a `DailyTransport` issue that would cause events to be triggered before
